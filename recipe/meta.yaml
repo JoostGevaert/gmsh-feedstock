@@ -97,7 +97,9 @@ about:
     geometry, mesh, solver and post-processing. The specification of any
     input to these modules is done either interactively using the graphical
     user interface or in ASCII text files using Gmsh's own scripting
-    language.
+    language. Alternatively, input can be specified through the C, C++, Julia 
+    or Python API's. For access to the Python API the package python-gmsh has
+    to be installed in addition to this package.
 
 extra:
   recipe-maintainers:
